@@ -76,6 +76,11 @@ export function LinguiProviderWrapper({
     }
   }, [locale, isHydrated]);
 
+  useEffect(() => {
+    document.documentElement.dir = locale === "ar" ? "rtl" : "ltr";
+    document.documentElement.lang = locale;
+  }, [locale]);
+
   return (
     <LinguiContext.Provider
       value={{ locale, setLocale, availableLocales: [...locales] }}

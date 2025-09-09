@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Language: ar\n"
+
+msgid "Boards"
+msgstr "لوحات"
+
+msgid "Activity"
+msgstr "النشاط"
+
+msgid "Create board"
+msgstr "إنشاء لوحة"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Welcome back"
+msgstr "مرحبًا بعودتك"
